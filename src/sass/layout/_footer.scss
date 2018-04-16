@@ -1,0 +1,33 @@
+.container {
+
+	.container-footer {
+		.social-list {
+			margin-left: 0em;
+		}
+		margin-left: 0em;
+		p {
+			margin-top: 3vh;
+			font-size: 0.8rem;
+		    line-height: 1.6;
+		    font-family: 'geomanist_regularregular';
+		    a {
+		    	color: #333;
+		    }
+		}
+		.social-link {
+			li {
+				list-style: none;
+				display: inline;
+				a {
+					padding: 2px 10px;
+					display: inline-block;
+					color: #519E8A;
+					&:hover {
+						color: #3D5258;
+					}
+				}
+			}
+		}
+
+	}
+}	

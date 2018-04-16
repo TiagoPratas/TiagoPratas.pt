@@ -1,0 +1,51 @@
+
+.hero-body {
+    .title-section {
+        h1.title {
+            font-family: 'geomanistmedium';
+            font-size: 2.3rem;
+        }
+        .separated {
+            background: #FFE066;
+            width: 35px;
+            height: 3px;
+            margin-top: -20px;
+        }
+    }
+    .content-text {
+        margin-top: 6vh;
+        font-size: 1.313em;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: 'Merriweather', serif;
+        font-weight: 200;
+    }
+    /* Blur */
+    .hover07 figure img {
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 200px;
+        height: 290px;
+    }
+    .hover07 figure:hover img {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+    }
+
+     .sub-title {
+            margin-top: 6vh;
+            font-family: 'geomanist_regularregular';
+            font-size: 1.4rem;
+        }
+    
+}
+
+.button.btn1 {
+    margin-top: 9vh;
+    font-size: 0.8rem;
+    padding: 20px 35px;
+    background-color: transparent;
+}
+

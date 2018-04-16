@@ -1,0 +1,160 @@
+
+
+
+
+
+* {
+	text-rendering: optimizelegibility; 
+	-webkit-transition: all 350ms ease!important; 
+	-moz-transition: all 350ms ease!important; 
+	transition: all 350ms ease!important; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0; 
+	padding: 0;}
+
+/* Pace.js Loading Bar */
+	
+.pace .pace-progress {
+	background: #fff;
+	opacity: 0.5;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	height: 4px;
+	-webkit-transition: width 1s;
+	-moz-transition: width 1s;
+	-o-transition: width 1s;
+	transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+
+
+/** background color */
+
+.bg {
+	position: fixed;
+	display: block;
+	height:100%;
+	width:100%;
+	z-index: -1;
+	background: #e9e9e9;
+	background-image: url(../img/bg.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-animation:pulse 20s infinite alternate;
+   	-moz-animation:pulse 20s infinite alternate;
+    -ms-animation:pulse 20s infinite alternate;
+    -o-animation:pulse 20s infinite alternate;
+    animation:pulse 20s infinite alternate;
+}
+
+/* General styles */
+
+@-webkit-keyframes pulse {
+	0%  {background-color: #87CBAC;} /* ETON BLUE */
+    25% {background-color: #519E8A;} /* POLISHED PINE */
+    50% {background-color: #3D5258;} /* OUTER SPACE */
+    75% {background-color: #6BA9AD;} /* GREEN SHEEN */
+	100%{background-color: #67597A;} /* GRANITE GRAY */
+}
+@-moz-keyframes pulse {
+	0%  {background-color: #87CBAC;} /* ETON BLUE */
+    25% {background-color: #519E8A;} /* POLISHED PINE */
+    50% {background-color: #3D5258;} /* OUTER SPACE */
+    75% {background-color: #6BA9AD;} /* GREEN SHEEN */
+	100%{background-color: #67597A;} /* GRANITE GRAY */
+}
+@-o-keyframes pulse {
+	0%  {background-color: #87CBAC;} /* ETON BLUE */
+    25% {background-color: #519E8A;} /* POLISHED PINE */
+    50% {background-color: #3D5258;} /* OUTER SPACE */
+    75% {background-color: #6BA9AD;} /* GREEN SHEEN */
+	100%{background-color: #67597A;} /* GRANITE GRAY */
+}
+@keyframes pulse {
+	0%  {background-color: #87CBAC;} /* ETON BLUE */
+    25% {background-color: #519E8A;} /* POLISHED PINE */
+    50% {background-color: #3D5258;} /* OUTER SPACE */
+    75% {background-color: #6BA9AD;} /* GREEN SHEEN */
+	100%{background-color: #67597A;} /* GRANITE GRAY */
+}
+
+
+/** wrap **/
+
+.wrap, body, html {
+	width:100%;
+	height: 100%;
+}
+
+.wrap {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-ms-flex-line-pack: end;
+	align-content: flex-end;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+.main {
+	position: relative;
+	max-width: 640px;
+	padding: 0 0 15% 0;
+	color: #fff;
+	.entry {
+		font-family: 'geomanistlight';
+		font-size: 1.5rem;
+
+	}
+	.name {
+		font-family: 'geomanistmedium';
+		font-size: 4rem;
+		margin-top: -15px;
+
+	}
+	h3{
+		font-family: 'Merriweather', serif;
+		font-weight: 200;
+		font-size: 3rem;
+		line-height:3.6rem;
+		.typed-cursor {
+			font-family: 'geomanistlight';
+			font-size: 3.5rem;
+			color: #FFE066;
+			animation: blink-animation 0.7s steps(2, start) infinite;
+  			-webkit-animation: blink-animation 0.7s steps(2, start) infinite;
+		}
+	}
+	.more {
+		position: absolute;
+		top: 80%;
+	}
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+

@@ -1,0 +1,70 @@
+.container-carrear {
+    margin-top: 4vh;
+}
+
+.date {
+    font-family: 'PT Mono', "Courier New", Courier, Consolas, monospace;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.position{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-family: 'geomanistlight';
+    margin-top: -5px;
+    
+}
+
+a.enterprise {
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    margin-top: -8px;
+}
+
+a.enterprise:hover {
+    color: #C2E7DA!important;
+    span.date {
+        color: #FFF !important;
+    }
+}
+
+
+
+
+.carrear-moment {
+    margin-top: 8vh; 
+    &:first-child {
+        margin-top: 0;
+    }
+        
+}
+
+h1.sub-tl {
+    font-family: 'geomanistmedium';
+    font-size: 1rem;
+    margin-top: 6vh; 
+}
+.carrear-past {
+    margin-top: 2vh;
+    
+    a.enterprise {
+        span.date {
+            font-size: 0.7rem;
+        }    
+    }
+
+}
+    
+
+#tp .is-bold.carrier {
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}   
+
